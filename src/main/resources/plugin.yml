@@ -1,0 +1,13 @@
+name: HopperBoost
+version: 1.0.0
+main: dev.hopperboost.HopperBoost
+api-version: "26.1"
+description: Per-chunk hopper speed boost
+commands:
+  hopperspeed:
+    description: Set hopper transfer speed in the chunk you are standing in
+    usage: /hopperspeed <set <itemsPerTick>|get|reset|list>
+    permission: hopperboost.use
+permissions:
+  hopperboost.use:
+    default: op
